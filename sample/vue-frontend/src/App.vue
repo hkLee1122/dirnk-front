@@ -1,8 +1,8 @@
 <template>
   <div id="nav">
-    <router-link to="/"></router-link>
-    <router-link to="/about"></router-link>
-    <router-link to="/shipmain"></router-link>
+    <router-link to="/vue">Home</router-link> |
+    <router-link to="/vue/about">About</router-link> |
+    <router-link to="/vue/shipmain">shipmain</router-link>
   </div>
   <router-view/>
 </template>

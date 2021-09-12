@@ -3,12 +3,12 @@ import Home from '../views/Home.vue'
 
 const routes = [
   {
-    path: '/',
+    path: '/vue',
     name: 'Home',
     component: Home
   },
   {
-    path: '/about',
+    path: '/vue/about',
     name: 'About',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
@@ -16,7 +16,7 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
   },
   {
-    path: '/shipmain',
+    path: '/vue/shipmain',
     name: 'shipmain',
     component: () => import('../views/shipmain.vue')
   }

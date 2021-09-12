@@ -17,7 +17,7 @@ public class ShipmainController {
         logger.debug("vue test debug");
 
 
-        return "";
+        return "111111";
     }
 
 }
